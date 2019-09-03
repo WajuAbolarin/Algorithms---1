@@ -1,0 +1,23 @@
+{
+  "name": "time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/index.js -d dist",
+    "start": "npm run build && node dist/index.js",
+    "dev": "npm run build && nodemon dist/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "babel-jest": "^24.9.0",
+    "nodemon": "^1.19.1"
+  }
+}
