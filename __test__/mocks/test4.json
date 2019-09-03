@@ -1,0 +1,19 @@
+{
+  "trips": [
+    {
+      "city_from": "Lagos",
+      "city_to": "Milan",
+      "duration": "10 Mins"
+    },
+    {
+      "city_from": "Milan",
+      "city_to": "Berlin",
+      "duration": "10 minutes"
+    },
+    {
+      "city_from": "Berlin",
+      "city_to": "Frankfurt",
+      "duration": "5 ms"
+    }
+  ]
+}
